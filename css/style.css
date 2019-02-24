@@ -135,6 +135,8 @@ a.skip:focus{
   padding: 10%;
   line-height: 1.5em;
   font-family: Helvetica;
+  background-image: url('images/athlete.jpg');
+  background-image: no-repeat;
 }
 
 
