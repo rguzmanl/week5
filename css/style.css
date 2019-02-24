@@ -1,0 +1,241 @@
+/* header and footer bckg color #0b06f5 */
+
+
+header, footer{
+  width: 100%;
+  min-height: 15vh;
+  background-color: #0b06f5;
+  /* background: #fff url("slim_head.png");  */
+}
+
+main{
+  min-height: 68vh;
+}
+
+a.skip{
+  color: white;
+  position: relative;
+  top: -40px;
+  transition: top ease-in .5s;
+}
+
+a.skip:focus{
+  background: #0b06f5; 
+  top: 5px;
+}
+
+
+/* Clickable Logo */
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 15vw;
+}
+
+.logo img{
+  display: block;
+  width: 15vw;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+
+
+
+/* Adding style to the navigation bar */
+/* start with the whole ul element */
+.main-nav ul{
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 16px;
+  margin-bottom: 0;
+  padding: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* list elemtns displayed as inline-block = displayed horizontally next to each other */
+.main-nav li{
+  display: inline-block; 
+}
+
+/* style to each <a> */
+.main-nav li a{
+  text-decoration: none;
+  padding: .5em;
+  margin: 2em;
+  color: rgb(255,255,255)
+  
+}
+
+/* Style to each nav item when current */
+.main-nav li a.current{
+  text-decoration: none;
+  text-align: right;
+  font-weight: bold;
+  color: rgb(95,222,57);
+}
+
+/* Style to each nav item when hover over */
+.main-nav li a:hover,a:focus{
+  border-bottom: 1px solid white;
+}
+
+
+
+.bckgimg{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Chech this font 
+    font-family: "Museo Sans Rounded";
+    font-size: 16px; */
+.about-slmkt{  
+  display: block;
+  padding: 2em;
+  font-size: 16px;
+  line-height: 1.3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  color: rgb(35, 35, 115);
+  /* text-shadow: 2px 3px 2px rgba(0, 0, 15, 0.3); */
+}
+
+/* will change the style, it will no longer have a nav bar, only social media */
+/* footer{
+  width: 100%;
+  height: 176px;
+  background-color: #0b06f5;
+} */
+
+/* why didn't this work for the class .foot-slogan? */
+
+
+
+
+.statement{
+  /* max-width: 100%;
+  height: auto; */
+  display: flex;
+  align-items: center;
+  margin: 3%;
+  height: 68vh;
+}
+
+.statement img{
+  width: 45%;  
+}
+
+.objectives{
+  /* display: inline-block;
+  width: 600px;
+  text-align: left; */
+  /* float: right; */
+  padding: 10%;
+  line-height: 1.5em;
+  font-family: Helvetica;
+}
+
+
+
+.menu {
+  display: grid;
+  grid-template-columns: auto;
+
+}
+
+.menu img{ 
+  width: 35vh;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.menu img:first-child{
+  padding-top: 2em;
+}
+
+.menu img:last-child{
+  padding-bottom: 2em;
+}
+
+
+.market{
+  display: flex;
+  align-items: center;
+  margin: 3%;
+  height: 68vh;
+}
+
+.market img{
+  width: 45%;
+}
+
+.description{
+  padding: 10%;
+  line-height: 1.5em;
+  font-family: Helvetica;
+}
+
+.productos{
+  display: grid;
+  grid-template-columns: auto auto; 
+  justify-items: left;
+  align-items: center;
+}
+
+.productos img{
+  width: 25vh;
+  padding: 2em;
+}
+
+.membresia{
+  display: flex;
+  align-items: center;
+  margin: 3%;
+  height: 68vh;
+}
+
+.membresia img{
+  width: 45%;
+}
+
+.membership{
+  padding: 10%;
+  line-height: 1.5em;
+  font-family: Helvetica;
+}
+
+
+
+footer{
+  /* min-height: 20vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p{
+  /* display: block; */
+  font-size: 3.5vh;
+  color: rgb(255,255,255);
+  /* font-family: 'Saira Extra Condensed', sans-serif; */
+  font-family: 'Open Sans Condensed', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  text-align: center;
+  /* padding: .5em; */
+  margin: .5em;
+}
+
+footer a i{
+  color: white;
+  margin: .5em;
+  /* font-size: 2em; */
+}
+  
+  
+
+
