@@ -10,6 +10,7 @@ header, footer{
 
 main{
   min-height: 68vh;
+
 }
 
 a.skip{
@@ -46,6 +47,12 @@ a.skip:focus{
 
 /* Adding style to the navigation bar */
 /* start with the whole ul element */
+
+/* @media screen and (min-width: 200px) {
+  add alternate css styling
+  consider 1200px for laptop size
+  700px for tablet
+} */
 .main-nav ul{
   font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 16px;
@@ -102,6 +109,13 @@ a.skip:focus{
   /* text-shadow: 2px 3px 2px rgba(0, 0, 15, 0.3); */
 }
 
+.about-slmkt h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  color: rgb(35, 35, 115);
+  font-size: 20px
+}
+
+
 /* will change the style, it will no longer have a nav bar, only social media */
 /* footer{
   width: 100%;
@@ -135,8 +149,8 @@ a.skip:focus{
   padding: 10%;
   line-height: 1.5em;
   font-family: Helvetica;
-  background-image: url('images/athlete.jpg');
-  background-image: no-repeat;
+  /* background-image: url('../images/athlete.jpg');
+  background-image: no-repeat; */
 }
 
 
@@ -145,6 +159,13 @@ a.skip:focus{
   display: grid;
   grid-template-columns: auto;
 
+}
+.menu h1{
+  font-size: 5vh;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin: .5em;
+  color: #0b06f5
 }
 
 .menu img{ 
