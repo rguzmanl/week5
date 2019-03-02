@@ -149,9 +149,37 @@ a.skip:focus{
   padding: 10%;
   line-height: 1.5em;
   font-family: Helvetica;
-  /* background-image: url('../images/athlete.jpg');
-  background-image: no-repeat; */
 }
+
+
+
+
+.brand{
+  display: flex;
+  align-items: center;
+  margin: 12%;
+  height: 100vh;
+}
+
+.marca{
+  padding: 10%;
+  line-height: 1.5em;
+  font-family: Helvetica;
+  background: black url("../images/athlete.jpg");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+
+.marca p, h3{
+  width: 45%;
+  color:white;
+  text-shadow: 2px 2px 2px rgb(170, 170, 170);
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 
 
 
